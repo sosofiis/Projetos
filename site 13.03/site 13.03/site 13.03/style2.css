@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 5vh;
+    display: flex;
+    background-color: rgb(186, 119, 249);
+    align-items: center;
+    justify-content: space-between;
+}
+
+main{
+    height: 90vh;
+    display: flex;
+    background-color: rgb(119, 156, 249);
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.container-estilizado{
+    background-color: antiquewhite;
+    height: 20vh;
+    width: 30vw;  
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    height: 6vh;
+    display: flex;
+    background-color: rgb(186, 119, 249);
+    align-items: center;
+    justify-content: center;
+    padding:1vh;
+}
